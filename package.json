@@ -10,9 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tsparticles/all": "^3.0.3",
+    "@tsparticles/engine": "^3.0.3",
+    "@tsparticles/react": "^3.0.0",
+    "@types/react-scroll": "^1.8.10",
+    "flowbite-react": "^0.7.2",
     "framer-motion": "^10.16.16",
+    "gsap": "^3.12.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-countup": "^6.4.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-intersection-observer": "^9.4.1",
+    "react-router-dom": "^6.21.1",
+    "react-scroll": "^1.9.0",
+    "react-type-animation": "^2.1.2",
+    "styled-components": "^6.1.8",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
