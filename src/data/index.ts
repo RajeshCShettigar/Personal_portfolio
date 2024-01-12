@@ -13,103 +13,111 @@ export const Bio = {
 };
 
 export const skills = [
-    {
-    title: "Languages",
-    skills:[
+  {
+    "languages":[
         {
         name: "C",
         image:
-          "https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+          "../assets/cpgm.svg",
         },
         {
         name: "C++",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"../assets/cpp.svg",
         },
         {
         name: "Java",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
         },
         {
         name: "Python",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         },  
         {
-        name: "JavaScript",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+          name: "HTML",
+          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
       ],
     },
     {
-    title:"Frameworks & Databases",
-    skills: [
+    "frameworks": [
       {
-       name: "React",
-       image:"https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+       name: "ReactJS",
+       image:"https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
       },
       {
-        name: "Node",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        name: "Node JS",
+        image:"https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
       },
       {
-        name: "Express",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        name: "Express JS",
+        image:"https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
       },
       {
         name: "MongoDB",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
         name: "MySQL",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg",
       },
         {
         name:"TailwindCSS",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
         },
         {
-        name:"Bootstrap",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+          name: "Bootstrap",
+          image:
+            "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
         },
         {
         name:"Flowbite",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"../assets/flowbite.png",
         },
         {
         name:"Flutter",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
         },
     ],
   },
   {
-    title: "Tools",
-    skills: [
+    "tools": [
       {
         name: "Git",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:
+          "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
       },
       {
-        name: "Github",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        name: "GitHub",
+        image:
+          "https://www.vectorlogo.zone/logos/github/github-icon.svg",
       },
       {
         name: "VS Code",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:
+          "https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg",
       },
       {
         name: "Postman",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
-      },
-      {
-        name: "Render",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:
+          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       },
       {
         name: "Firebase",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
       {
         name:"Cloudinary",
-        image:"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+        image:"https://www.vectorlogo.zone/logos/cloudifyco/cloudifyco-icon.svg",
       }
     ],
   }

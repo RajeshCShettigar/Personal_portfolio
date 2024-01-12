@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="text-center bottom-0 inset-x-0">
+    <footer className="text-center bottom-0">
       <div className="p-1 pt-5 mt-1 border-t border-gray-200 text-center">
         <div className="inline-flex text-2xl">
           <a

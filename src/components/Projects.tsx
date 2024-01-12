@@ -3,7 +3,7 @@ import { projects } from "../data/index";
 const Projects = () => {
   return (
     <section
-      className="min-h-screen flex flex-col items-center justify-center"
+      className="container mx-auto px-4 py-16 md:px-20 md:py-8 lg:px-28 lg:py-8"
       id="projects"
     >
       <div className="container mx-auto px-5">
@@ -22,7 +22,7 @@ const Projects = () => {
                 key={index}
               >
                 <div className="items-center justify-center">
-                  <div className="max-w-3xl w-full rounded-lg m-10 min-h-min-content bg-purple-900 text-white p-5 flex flex-col relative">
+                  <div className="max-w-3xl w-full rounded-lg m-10 min-h-min-content bg-navbar text-white p-5 flex flex-col relative">
                     <img
                       src={project?.image}
                       alt="Project"

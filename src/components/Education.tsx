@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <section
-      className="min-h-screen flex flex-col items-center justify-center"
+      className="container mx-auto px-4 py-16 md:px-20 md:py-8 lg:px-28 lg:py-8"
       id="education"
     >
       <div className="container mx-auto px-5">
