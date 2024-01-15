@@ -87,6 +87,10 @@ export const skills = [
         name:"Flutter",
         image:"https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
         },
+        {
+          name:"Springboot",
+          image:"https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+        }
     ],
   },
   {
@@ -136,69 +140,72 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "",
-    date: "",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: ["react", "node", "express", "mongodb","tailwindcss"],
-    category: "web app",
-    github: "",
-    webapp: "",
-  },
-  {
     id: 1,
-    title: "",
-    date: "",
+    title: "Travel-Trek",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "TravelTrek is a travel website that helps users to find their dream destinations and book their tickets. It is built using ReactJS and TailwindCSS. It includes features like search for destinations, view details of destinations, book tickets and many more.",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: ["react", "node", "express", "mongodb","tailwindcss"],
-    category: "web app",
-    github: "",
-    webapp: "",
+    tags: ["ReactJS", "NodeJs", "ExpressJS", "MongoDb","TailwindCSS"],
+    github: "https://github.com/RajeshCShettigar/Travel-Trek",
   },
   {
     id: 2,
-    title: "",
-    date: "",
+    title: "Crypto-Hunt",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "A simple flutter app to track the price of cryptocurrencies using CoinGecko API Graph is built using syncfusion flutter charts.It includes features like wishlist to track your favourite cryptocurrencies, view latest crypto news, view crypto details and many more.",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: ["react", "node", "express", "mongodb","tailwindcss"],
-    category: "web app",
-    github: "",
-    webapp: "",
+    tags: ["Flutter", "Dart", "Syncfusion", "CoinGecko"],
+    github: "https://github.com/RajeshCShettigar/crypto_hunt",
   },
   {
-    id: 3,
-    title: "",
-    date: "",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: ["react", "node", "express", "mongodb","tailwindcss"],
-    category: "web app",
-    github: "",
-    webapp: "",
+    id:3,
+    title:"Personal Portfolio",
+    description:"A simple portfolio website built using ReactJS and TailwindCSS. It includes features like view my projects, view my skills, view my education and many more.",
+    image:"https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags:["ReactJS","TailwindCSS","Typescript"],
+    github:"https://github.com/RajeshCShettigar/Personal_portfolio",
   },
   {
-    id: 4,
-    title: "",
-    date: "",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: ["react", "node", "express", "mongodb","tailwindcss"],
-    category: "web app",
-    github: "",
-    webapp: "",
+    id:4,
+    title:"Play-hive",
+    description:"PlayHive is a web application that allows users to explore and discover a variety of free-to-play games. The website is built using the Free-To-Play Games Database API, providing a curated collection of information about different games.",
+    image:"https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags:["ReactJS","Free-game","API","Axios","TailwindCSS"],
+    github:"https://github.com/RajeshCShettigar/PlayHive",
   },
+  {
+    id:5,
+    title:"Recipe-App",
+    description:"A simple recipe app built using ReactJS and TailwindCSS and Edamam Recipe API. It includes features like search for recipes, view details of recipes, view ingredients and many more.",
+    image:"https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags:["ReactJS","TailwindCSS","Edamam Recipe API"],
+    github:"https://github.com/RajeshCShettigar/RecipeApp",
+  },
+  {
+    id:6,
+    title:"Lets-Chat",
+    description:"A MERN Stack Chat Application built using WebSockets provides real-time, bidirectional communication between users. It leverages MongoDB for database management, Express.js for server-side operations, React.js for building the user interface, and Node.js for running JavaScript on the server side.",
+    image:"https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags:["ReactJS","NodeJS","ExpressJS","MongoDB","Socket.io"],
+    github:"https://github.com/RajeshCShettigar/Lets_chat",
+  },
+  {
+    id:7,
+    title:"Food delivery time prediction",
+    description:"Machine Learning model to predict the delivery time of food based on various factors like location, restaurant type, etc. The model is built using XG Boost and Random Forest algorithms.",
+    image:"https://statso.io/wp-content/uploads/2023/01/Food-Delivery-Time-Prediction.png",
+    tags:["Python","Machine Learning","XG Boost","Random Forest"],
+    github:"https://github.com/RajeshCShettigar/food_delivery_time_prediction",
+  },
+  {
+    id:8,
+    title:"Student Performance Analysis",
+    description:"An exploratory data analysis of student performance in academics is done on dataset from Kaggle. The analysis is done using Python libraries like Pandas, Matplotlib and Seaborn. Various factors affecting the student performance are analysed and visualized using graphs.",
+    image:"https://www.edecofy.com/blog/wp-content/uploads/2021/06/Student-Performance-Analysis-Reporting-System.jpg",
+    tags:["Python","Pandas","Matplotlib","Seaborn","Numpy"],
+    github:"https://github.com/RajeshCShettigar/Student_performance_analysis"
+  }
 ];
 

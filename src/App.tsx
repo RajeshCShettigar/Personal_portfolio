@@ -15,7 +15,7 @@ function App() {
   };
   
   return (
-    <div className="dark:bg-background bg-gray-300">
+    <div className="dark:dim-blue bg-goldcolor">
       <Navbar />
       <Home />
       <Projects />

@@ -9,10 +9,11 @@ export default {
     container: {
       padding: {
         DEFAULT: '1rem',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
+        sm: '1rem',
+        md: '1rem',
+        lg: '1rem',
+        xl: '2rem',
+        '2xl': '4rem',
       },
     },
     extend: {
@@ -27,23 +28,12 @@ export default {
           "700": "#616161",
           "800": "#424242",
           "900": "#212121"
-        }
+        },
       },
       fontFamily: {
         primary: ['Ubuntu', 'sans-serif'],
         secondary: ['Shantell Sans', 'serif'],
         tertiary:['Roboto', 'sans-serif']
-      },
-      container: {
-        padding: {
-          DEFAULT: '15px',
-        },
-      },
-      screens: {
-        sm: '640px',
-        md: '768px',
-        lg: '960px',
-        xl: '1200px',
       },
       colors: {
         primary: '#0a0a0a',

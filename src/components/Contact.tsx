@@ -3,9 +3,14 @@ import { fadeIn } from "../utils/variants";
 
 const Contact = () => {
   return (
-    <section className="container mx-auto px-4 py-16 md:px-20 md:py-8 lg:px-28 lg:py-8" id="contact">
+    <section className="mx-auto px-4 py-16 md:px-20 md:py-8 lg:px-28 lg:py-8" id="contact">
       <div className="container mx-auto">
-      <h1 className="text-center text-4xl p-4">Contact Me</h1>
+      <motion.h1 
+        variants={fadeIn("up", 0.4)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.6 }}
+      className="text-center text-4xl p-4 mb-12">Contact Me</motion.h1>
         <div className="flex flex-col lg:flex-row justify-center items-center">
           {/* text */}
           
@@ -17,7 +22,7 @@ const Contact = () => {
             className="flex-1 flex justify-start items-center"
           >
             <div>
-              <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">
+              <h4 className="text-3xl uppercase text-accent font-medium mb-2 tracking-wide text-center">
                 Get in touch
               </h4>
               <h2 className="text-[40px] lg:text-[80px] leading-none mb-12">

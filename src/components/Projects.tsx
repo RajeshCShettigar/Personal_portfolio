@@ -1,73 +1,73 @@
 import { projects } from "../data/index";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/variants";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
     <section
-      className="container mx-auto px-4 py-16 md:px-20 md:py-8 lg:px-28 lg:py-8"
+      className="mx-auto px-4 py-16 md:px-12 md:py-8 lg:px-24 lg:py-8"
       id="projects"
     >
       <div className="container mx-auto px-5">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-bold text-center">Projects</h1>
-          <p className="text-lg text-center text-gray-400 mt-2">
+          <motion.h1
+            variants={fadeIn("top", 0.4)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.6 }}
+            className="text-4xl font-bold text-center py-2"
+          >
+            Projects
+          </motion.h1>
+          <motion.p
+            variants={fadeIn("top", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="text-lg text-center text-gray-400 mt-2"
+          >
             I have worked on a wide range of projects. From web apps to android
             apps. Here are some of my projects.
-          </p>
+          </motion.p>
         </div>
-        <div className="mx-10">
-          <ul className="flex flex-wrap mx-auto justify-center">
+        <div className="my-4">
+          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
             {projects.map((project, index) => (
-              <li
-                className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 mb-10 p-2"
+              <motion.li 
+                transition={{ duration: 0.5 }}
+                className="w-full max-w-sm rounded overflow-hidden shadow-lg bg-[#202020] hover:bg-[#161616] m-4"
                 key={index}
               >
-                <div className="items-center justify-center">
-                  <div className="max-w-3xl w-full rounded-lg m-10 min-h-min-content bg-navbar text-white p-5 flex flex-col relative">
+                 
                     <img
                       src={project?.image}
                       alt="Project"
-                      className="w-full object-cover rounded-lg mt-8 shadow-md"
+                      className="w-full object-cover h-56"
                     />
-                    <div className="text-2xl font-semibold text-white mt-5">
-                      {project?.title}
+                  <div className="px-6 py-4">
+                    <div className="flex items-center space-x-2 justify-center">
+                    <span className="font-bold text-xl">{project.title}</span>
+                    <a href={project.github} className="text-xl">
+                     <FaGithub />
+                    </a>
+                   </div>
+                   <p className="text-gray-400 text-base text-wrap">{project.description}</p>
                     </div>
-                    <div className="text-base text-gray-400 mt-1">
-                      {project.date}
-                    </div>
-                    <div className="flex flex-wrap mt-2">
+                      <div className="flex flex-wrap mt-2 justify-center">
                       {project?.tags.map((tag, index) => (
                         <div
                           key={index}
-                          className="text-sm font-normal text-blue-500 mr-2 mb-2 px-2 py-1 rounded bg-blue-300"
+                          className="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 hover:bg-blue-600"
                         >
                           {tag}
                         </div>
                       ))}
                     </div>
-                    <div className="text-base font-normal text-white mt-2">
-                      {project?.description}
-                    </div>
-                    <div className="flex justify-between mt-4 gap-4">
-                      <a
-                        href={project?.github}
-                        target="new"
-                        className="text-white px-4 py-2 rounded bg-blue-500 hover:bg-blue-600"
-                      >
-                        View Code
-                      </a>
-                      <a
-                        href={project?.category}
-                        target="new"
-                        className="text-white px-4 py-2 rounded bg-blue-500 hover:bg-blue-600"
-                      >
-                        View Live App
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </li>
+              </motion.li>
             ))}
           </ul>
+
         </div>
       </div>
     </section>

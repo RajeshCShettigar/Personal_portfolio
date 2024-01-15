@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&family=Ubuntu:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -104,10 +104,21 @@
       padding: 1rem;
       border-radius: 100%;
     }
+    .bright-half{
+      filter:brightness(60%);
+    }
+    .dim-blue{
+      background: radial-gradient(circle at 50% 50%, rgb(35, 35, 35) 50%, rgb(0, 0, 0) 99.99%); 
+      background-size: cover;
+    }
   }
   *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: 'Itim', cursive;
+  }
+  div img:hover{
+    filter:brightness(60%);
   }
