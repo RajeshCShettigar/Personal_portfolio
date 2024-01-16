@@ -37,26 +37,29 @@ const Contact = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 border rounded-2xl p-4 pb-4 lg:pb-8 gap-y-6 flex flex-col items-start backdrop-blur-md"
+            action="https://formspree.io/f/mdovjrpr" method="POST"
           >
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="text"
               placeholder="Your name"
+              name="name"
             />
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="email"
               placeholder="Your email"
+              name="email"
             />
             <textarea
               className="bg-transparent border-b py-2 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none"
-              name=""
               id=""
               cols={30}
               rows={6}
               placeholder="Your Message"
+              name="message"
             ></textarea>
-            <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-2 rounded-full w-full">Send Message</button>
+            <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-2 rounded-full w-full" type="submit">Send Message</button>
           </motion.form>
         </div>
       </div>

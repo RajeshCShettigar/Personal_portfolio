@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 function App() {
  
   return (
-    <div className="dark:dim-blue bg-goldcolor">
+    <div className="dim-blue">
       <Navbar />
       <Home />
       <Projects />
