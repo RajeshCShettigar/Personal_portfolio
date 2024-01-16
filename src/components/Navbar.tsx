@@ -3,12 +3,13 @@ const Navbar = () => {
     <nav className="bg-white border-gray-200 dark:bg-navbar cursor-pointer sticky md:border-b-2 md:border-pink-500">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse md:justify-between ">
-          <button
-            type="button"
+          <a
+            href="https://drive.google.com/file/d/1LwHZvLrtk6vgQAatJP8Kv_HrXGBMh3oX/view?usp=sharing"
+            target="_blank"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-1 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-md"
           >
             Download CV
-          </button>
+          </a>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"

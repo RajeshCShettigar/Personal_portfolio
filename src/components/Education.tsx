@@ -13,10 +13,10 @@ const Education = () => {
       <div className="mx-auto">
         <div className="flex flex-col items-center justify-center">
           <motion.h1
-            variants={fadeIn("up", 0.4)}
+            variants={fadeIn("up", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.6 }}
+            viewport={{ once: false, amount: 0.2 }}
             className="text-4xl font-bold text-center"
           >
            Education
@@ -26,10 +26,6 @@ const Education = () => {
           <div className="flex flex-wrap sm:m-4 md:space-y-0 items-center justify-center">
             
             <motion.div 
-             variants={fadeIn("right", 0.2)}
-             initial="hidden"
-             whileInView={"show"}
-             viewport={{ once: false, amount: 0.2 }}
             className="w-full max-w-[22rem] border border-gray-200 rounded-lg shadow text-gray-400 mx-6 hover:shadow-3xl hover:border-gray-600">
               <div className="flex flex-col items-center py-2">
                 <img
@@ -51,10 +47,6 @@ const Education = () => {
             </motion.div>
 
             <motion.div 
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.2 }}
             className="w-full max-w-[22rem] border border-gray-200 rounded-lg shadow text-gray-400 mx-6 hover:shadow-3xl hover:border-gray-600">
               <div className="flex flex-col items-center py-2">
                 <img
@@ -76,10 +68,6 @@ const Education = () => {
             </motion.div>
 
             <motion.div 
-            variants={fadeIn("left", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.2 }}
             className="w-full max-w-[22rem] border border-gray-200 rounded-lg shadow text-gray-400 mx-6 hover:shadow-3xl hover:border-gray-600">
               <div className="flex flex-col items-center py-2">
                 <img

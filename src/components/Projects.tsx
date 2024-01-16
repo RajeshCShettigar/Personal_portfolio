@@ -43,7 +43,7 @@ const Projects = () => {
                     <img
                       src={project?.image}
                       alt="Project"
-                      className="w-full object-cover h-56"
+                      className="w-full object-cover h-56 "
                     />
                   <div className="px-6 py-4">
                     <div className="flex items-center space-x-2 justify-center">
